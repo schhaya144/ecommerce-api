@@ -39,7 +39,7 @@ npm install
 Create a `.env` file in the root directory:
 ```
 PORT=3000
-MONGODB_URI=mongodb://localhost:27017/ecommerce
+MONGODB_URI=<url>
 JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
 JWT_EXPIRES_IN=7d
 NODE_ENV=development
